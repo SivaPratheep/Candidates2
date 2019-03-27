@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CoimbatoreDetails">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:id="@+id/toolBarCovaiDetails">
+
+    </android.support.v7.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/covaiTop"
+        android:background="@color/colorPrimary"
+        android:layout_below="@+id/toolBarCovaiDetails">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="30dp"
+            android:id="@+id/ivCovai"
+            android:layout_marginBottom="10dp"
+            android:layout_centerHorizontal="true"
+            android:src="@mipmap/ic_launcher"/>
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Faculty Name"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/design_default_color_primary_dark"
+            android:textAlignment="center"
+            android:id="@+id/tvCovaiSelName"
+            android:layout_below="@+id/ivCovai"
+            android:layout_marginBottom="20dp"
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+
+    <android.support.v7.widget.CardView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/covaiTop"
+        android:id="@+id/cardView1Covai"
+        android:background="@color/colorAccent"
+        android:layout_marginTop="10dp"
+        android:elevation="4dp"
+        xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+
+            <TextView
+                android:id="@+id/tvPhoneNumberLabelCovai"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="Party" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1sp"
+                android:id="@+id/tvLine0Covai"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/colorPrimaryDark"
+                android:layout_below="@+id/tvPhoneNumberLabelCovai"/>
+            <TextView
+                android:id="@+id/tvPhoneNumberCovai"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="9080352667"
+                android:textIsSelectable="true"
+                android:layout_below="@+id/tvLine0Covai"
+                android:textSize="20sp" />
+
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/cardView1Covai"
+        android:id="@+id/cardView2Covai"
+        android:background="@color/colorAccent"
+        android:layout_marginTop="10dp"
+        android:elevation="4dp"
+        xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvEmaiIdLabelCovai"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="Achievements" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1sp"
+                android:id="@+id/tvLine1Covai"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/colorPrimaryDark"
+                android:layout_below="@+id/tvEmaiIdLabelCovai"/>
+            <TextView
+                android:id="@+id/tvEmaiIdCovai"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="sivapratheep484@gmail.com"
+                android:textIsSelectable="true"
+                android:layout_below="@+id/tvLine1Covai"
+                android:textSize="20sp" />
+
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/cardView2Covai"
+        android:id="@+id/cardView3Covai"
+        android:background="@color/colorAccent"
+        android:layout_marginTop="10dp"
+        android:elevation="4dp"
+        xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvStaffRoomLabelCovai"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="General Info" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1sp"
+                android:id="@+id/tvLine2Covai"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/colorPrimaryDark"
+                android:layout_below="@+id/tvStaffRoomLabelCovai"/>
+            <TextView
+                android:id="@+id/tvStaffRoomCovai"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="Staff Room 1"
+                android:layout_below="@+id/tvLine2Covai"
+                android:textSize="20sp" />
+
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Candidates</string>
+    <string-array name="Main">
+        <item> Madurai </item>
+        <item> Theni </item>
+        <item> Coimbatore </item>
+    </string-array>
+    <string-array name="Description">
+        <item> Cultural capital of Tamil Nadu </item>
+        <item>  Second Manchester of South India. </item>
+        <item> Manchester of South India </item>
+    </string-array>
+    <string-array name="Madurai">
+        <item> S.Venkatesan </item>
+        <item>  Raj Sathyan </item>
+        <item> David Annadurai </item>
+    </string-array>
+    <string-array name="Theni">
+        <item> P Ravindranath Kumar </item>
+        <item>  E.V.K.S.Elangovan </item>
+        <item> Thanga Tamil Selvan </item>
+    </string-array>
+    <string-array name="Coimbatore">
+        <item> P.R.Natarajan </item>
+        <item>  C.P.Radhakrishnan </item>
+        <item> AppaDurai </item>
+    </string-array>
+    <string-array name="Venkatesan">
+        <item> CPN </item>
+        <item>  In 2010, his historical novel Kaaval Kottam received the Fiction Award from The Tamil Literary Garden, Canada. \nThe next year, it got him the prestigious Sahitya Academy Award on the following year. </item>
+        <item> He is a very good orator as well as a good writer.  </item>
+    </string-array>
+    <string-array name="Sathyan">
+        <item> ADMK </item>
+        <item>   </item>
+        <item> Son of former Mayor Rajan Chellapa  </item>
+    </string-array>
+    <string-array name="Annadurai">
+        <item> AMMK </item>
+        <item> Joint secretary of Madurai city students’ wing \n Madurai district Amma Peravai secretary.  </item>
+        <item> Lawyer  </item>
+    </string-array>
+    <string-array name="Kumar">
+        <item> ADMK </item>
+        <item>   </item>
+        <item> Son of deputy Chief Minister and AIADMK chief O Panneerselvam  </item>
+    </string-array>
+    <string-array name="Elangovan">
+        <item> Congress </item>
+        <item> He was a member of the lok sabha of India.  </item>
+        <item> He was appointed as President of Tamil Nadu Congress Committee by All India Congress Committee Chief Sonia Gandhi on 31 October 2014, followed by the resignation of B. S. Gnanadesikan.  </item>
+    </string-array>
+    <string-array name="Selvan">
+        <item> AMMK </item>
+        <item> He was a member of Parliament of India representing Tamil Nadu in the Rajya Sabha  </item>
+        <item> He also participated in same Antipatti constituency and win two elections in same constituency in 2011-2016, 2016-present  </item>
+    </string-array>
+    <string-array name="Natarajan">
+        <item> CPM </item>
+        <item>  He is a member of the 15th Lok Sabha of India. </item>
+        <item>  He represents the Coimbatore constituency of Tamil Nadu.\n He is a member of the CPI(M) party.  </item>
+    </string-array>
+    <string-array name="Radhakrishnan">
+        <item> BJP </item>
+        <item> He was a two-time member of the Lok Sabha.  </item>
+        <item> In 2012, he courted arrest in Mettupalayam for protesting against action not being taken against culprits who assaulted a Rashtriya Swayamsevak Sangh activist.  </item>
+    </string-array>
+    <string-array name="Appadurai">
+        <item> AMMK </item>
+        <item> He served as the Member of Rajya Sabha and Lok Sabha.   </item>
+        <item> Member of Tamil Nadu Legislative Assembly. </item>
+    </string-array>
+</resources>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TheniDetails">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:id="@+id/toolBarTheniDetails">
+
+    </android.support.v7.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/theniTop"
+        android:background="@color/colorPrimary"
+        android:layout_below="@+id/toolBarTheniDetails">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="30dp"
+            android:id="@+id/ivTheni"
+            android:layout_marginBottom="10dp"
+            android:layout_centerHorizontal="true"
+            android:src="@mipmap/ic_launcher"/>
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Faculty Name"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/design_default_color_primary_dark"
+            android:textAlignment="center"
+            android:id="@+id/tvTheniSelName"
+            android:layout_below="@+id/ivTheni"
+            android:layout_marginBottom="20dp"
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+
+    <android.support.v7.widget.CardView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/theniTop"
+        android:id="@+id/cardView1Theni"
+        android:background="@color/colorAccent"
+        android:layout_marginTop="10dp"
+        android:elevation="4dp"
+        xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+
+            <TextView
+                android:id="@+id/tvPhoneNumberLabelTheni"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="Party" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1sp"
+                android:id="@+id/tvLine0Theni"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/colorPrimaryDark"
+                android:layout_below="@+id/tvPhoneNumberLabelTheni"/>
+            <TextView
+                android:id="@+id/tvPhoneNumberTheni"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="9080352667"
+                android:textIsSelectable="true"
+                android:layout_below="@+id/tvLine0Theni"
+                android:textSize="20sp" />
+
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/cardView1Theni"
+        android:id="@+id/cardView2Theni"
+        android:background="@color/colorAccent"
+        android:layout_marginTop="10dp"
+        android:elevation="4dp"
+        xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvEmaiIdLabelTheni"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="Achievements" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1sp"
+                android:id="@+id/tvLine1Theni"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/colorPrimaryDark"
+                android:layout_below="@+id/tvEmaiIdLabelTheni"/>
+            <TextView
+                android:id="@+id/tvEmaiIdTheni"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="sivapratheep484@gmail.com"
+                android:textIsSelectable="true"
+                android:layout_below="@+id/tvLine1Theni"
+                android:textSize="20sp" />
+
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/cardView2Theni"
+        android:id="@+id/cardView3Theni"
+        android:background="@color/colorAccent"
+        android:layout_marginTop="10dp"
+        android:elevation="4dp"
+        xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvStaffRoomLabelTheni"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="General Info" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1sp"
+                android:id="@+id/tvLine2Theni"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/colorPrimaryDark"
+                android:layout_below="@+id/tvStaffRoomLabelTheni"/>
+            <TextView
+                android:id="@+id/tvStaffRoomTheni"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="Staff Room 1"
+                android:layout_below="@+id/tvLine2Theni"
+                android:textSize="20sp" />
+
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>
